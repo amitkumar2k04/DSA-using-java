@@ -29,6 +29,7 @@ public class merge_sort {
         i = 0;
         j = 0;
         k = l;
+        // merging two sorted array to create overall sorted array
         while(i<n1 && j<n2){
             if(left[i] <= right[j]){
                 arr[k++] = left[i++];
