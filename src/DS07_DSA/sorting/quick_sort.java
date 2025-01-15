@@ -40,6 +40,7 @@ public class quick_sort {
     static void quickSort(int[] arr, int st, int end ){
         // base case
         if(st > end) return;
+        // self work
         int PI = partition(arr, st, end);
         // recursive work
         quickSort(arr, st,  PI-1);
