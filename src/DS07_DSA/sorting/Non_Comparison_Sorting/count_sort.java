@@ -18,7 +18,7 @@ public class count_sort {
 
     static void basicCountSort(int[] arr){   // 2 4 2 2
         int max = findMax(arr);  // find the largest element of the array
-        int[] count = new int[max + 1];
+        int[] count = new int[max + 1];  // freq array
         for(int i = 0; i<arr.length; i++){
             /*
             0 0 3 0 1  - freq of elements
@@ -26,7 +26,7 @@ public class count_sort {
              */
             count[arr[i]]++;  // counting the frequency of the array
         }
-        int k = 0;
+        int k = 0;  // take it to iterate over the final arr
         for(int i = 0; i<count.length; i++){  // 0 2 0 3 1 2
             for(int j = 0; j<count[i]; j++){
                 arr[k++] = i;
