@@ -5,13 +5,9 @@ public class getLongestSubarrayWith_GivenSum {
         int n = arr.length;
         int len = 0;
         for(int i = 0; i<n; i++){
+            long sum = 0;
             for(int j = i; j<n; j++){
-                // add all the elements of subArray
-                // In this way we can find entire sum of subArray from i to j
-                long sum = 0;
-                for(int K = i; K<=j; K++){
-                    sum+= arr[K];
-                }
+                sum+=arr[j];
                 // But now we require subArr of longest and equal to k
                 if(sum == k){
                     len = Math.max(len, j-i+1);
@@ -36,6 +32,6 @@ public class getLongestSubarrayWith_GivenSum {
 
 /*
  Analyzing Time & space complexity
-    T.C - Near about o(n3) - bez we are using three loops here & every loops run to n times.
+    T.C - Near about o(n2) - bez we are using two loops here & every loops run to n times. This is Optimizing the Naive Approach (Using two loops):
     S.C - o(1)
  */
