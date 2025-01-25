@@ -71,10 +71,10 @@ public class BasicLL {
 
         //display(a);
         //disp_Recursively(a);
-        System.out.println(length(a));
+        //System.out.println(length(a));
 
-        inserAtEnd(a, 87);
-        display(a);
+        //inserAtEnd(a, 87);
+        //display(a);
 
     }
 }
