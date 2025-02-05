@@ -15,6 +15,7 @@ Added README.md
 | ------- |
 | [0020-valid-parentheses](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0020-valid-parentheses) |
 | [0496-next-greater-element-i](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0496-next-greater-element-i) |
+| [0937-online-stock-span](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0937-online-stock-span) |
 ## Array
 |  |
 | ------- |
@@ -27,4 +28,13 @@ Added README.md
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0496-next-greater-element-i) |
+| [0937-online-stock-span](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0937-online-stock-span) |
+## Design
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/amitkumar2k04/DSA-using-java/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
