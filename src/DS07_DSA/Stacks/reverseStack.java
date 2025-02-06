@@ -44,7 +44,7 @@ public class reverseStack {
 //        System.out.println(rt);
 //
 //        Stack<Integer> at = new Stack<>();
-//        while(rt.size() > 0){
+//        while(rt.size() > 0){~
 //            at.push(rt.pop());
 //        }
 //        System.out.println(at);
