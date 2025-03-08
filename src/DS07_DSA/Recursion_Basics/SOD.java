@@ -6,15 +6,15 @@ public class SOD {
         if(n >= 0 && n <= 9){
             return n;
         }
-        return sumOfDigits(n / 10) + n % 10;
+        //return sumOfDigits(n / 10) + n % 10;
 
 
-//        // Recursive Work
-//        int smallAns = sumOfDigits(n / 10);
-//
-//        // self work
-//        int ans = smallAns + n%10;
-//        return ans;
+        // Recursive Work
+        int smallAns = sumOfDigits(n / 10);
+
+        // self work
+        int ans = smallAns + n%10;
+        return ans;
     }
 
     public static void main(String[] args) {

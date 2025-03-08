@@ -30,7 +30,7 @@ public class size_Max_Sum_Height_of_tree {
     }
     // Find Height of the binary tree
     public static int treeHeight(Node root){
-        if(root.left == null && root.right == null) return 0;
+        if(root == null || root.left == null && root.right == null) return 0;
         return 1 + Math.max(treeHeight(root.left), treeHeight(root.right));
     }
     public static void main(String[] args) {

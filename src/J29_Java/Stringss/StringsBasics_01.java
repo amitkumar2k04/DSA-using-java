@@ -45,7 +45,7 @@ public class StringsBasics_01 {
 //        System.out.println(str.toUpperCase());
 //        String s1 = "abc";
 //        String s2 = "def";
-//        System.out.println(s1.concat(s2));
+//        System.out.println(s1.concat(s2));    // here new string created - and usme s1 + s2 ka mixture store ho raha hai
 
 
         // Use of fun subString() and substring()

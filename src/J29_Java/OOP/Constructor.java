@@ -7,7 +7,6 @@ class Circle {
     double Circumference() {
         return 2 * Math.PI * r;
     }
-
     double Area() {
         return Math.PI * r * r;
     }

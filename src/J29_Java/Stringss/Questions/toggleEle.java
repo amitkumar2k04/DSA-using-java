@@ -2,7 +2,7 @@ package J29_Java.Stringss.Questions;
 
 import java.util.Scanner;
 
-public class toggleElements {
+public class toggleEle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuilder str = new StringBuilder(sc.next());
