@@ -13,6 +13,5 @@ public class printAllSubstrings {
                 System.out.print(str.substring(i,j) + " ");
             }
         }
-
     }
 }
