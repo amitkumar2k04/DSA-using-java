@@ -4,11 +4,13 @@ import java.util.Scanner;
 // Ques : print the maximum element of an array
 public class demo4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of the array: ");
-        int size = sc.nextInt();
-        int sum = 0;
-        int arr[] = new int[size];
-
+        int arr[] = { 5, 3, 6, 2, 8, 1 };
+        int ans = 0;
+        for(int i = 0; i<arr.length; i++){
+            if(arr[i] > ans){
+                ans = arr[i];
+            }
+        }
+        System.out.println("Max Value: " + ans);
     }
 }
