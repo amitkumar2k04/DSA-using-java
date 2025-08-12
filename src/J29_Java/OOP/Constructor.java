@@ -47,7 +47,7 @@ class Circle {
 
     public class Constructor {
         public static void main(String[] args) {
-            // that means, the circle object is created, we pass the values, the constructor will take this value and pass it to the c1 objects and then c1 will be initialized.
+            // that means, the circle object is created, we pass the values to the constructor, the constructor will take this value and pass it to the c1 objects and then c1 will be initialized.
             Circle C1 = new Circle(3.0, 4.0, 5.0); // While using objects we can call it while obj creation with the parameters
             Box b = new Box();
 

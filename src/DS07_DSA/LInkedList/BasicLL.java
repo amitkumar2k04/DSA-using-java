@@ -11,10 +11,10 @@ public class BasicLL {
     public static void disp_Recursively(Node head){
         // Base case
         if(head == null) return;
-        // self work
-        System.out.print(head.data + " ");
         // recursively
         disp_Recursively(head.next);
+        // self work
+        System.out.print(head.data + " ");
     }
     public static int length(Node a) {
         int count = 0;
@@ -70,8 +70,8 @@ public class BasicLL {
          */
 
         //display(a);
-        //disp_Recursively(a);
-        //System.out.println(length(a));
+//        disp_Recursively(a);
+        System.out.println(length(a));
 
         //inserAtEnd(a, 87);
         //display(a);
